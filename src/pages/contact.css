@@ -53,7 +53,7 @@
     justify-content: center;
     padding: 20px;
     gap: 10px;
-    width: clamp(400px, 60%, 600px);
+    width: clamp(400px, 60%, 1000px);
     /* border: 1px solid red; */
 }
 

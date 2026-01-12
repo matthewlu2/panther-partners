@@ -135,3 +135,10 @@
     text-decoration: none;
     margin-bottom: 10px;
 }
+
+
+@media (max-width: 965px) {
+    .pricing-container {
+        padding-bottom: 3rem;
+    }
+}
