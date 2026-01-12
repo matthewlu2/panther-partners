@@ -1,0 +1,199 @@
+.contact-container {
+    padding-top: 9vh;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0;
+
+  max-width: clamp(320px, 70vw, 700px);
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-header h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 2.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-header p {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}  
+
+.contact-header .reach-out {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 0px;
+    color: #434445;
+
+}
+
+.contact-header .panther-email {
+    color: #4361c2;
+    text-decoration: none;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+    width: clamp(400px, 60%, 600px);
+    /* border: 1px solid red; */
+}
+
+.name-container, .email-container, .phone-container,  .message-container {
+    width: 60%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* border: 1px solid blue */
+}
+
+.email-container .icon {
+  position: absolute;
+  left: 10px;
+  top: 30px;
+  color: #9ca3af;
+}    
+
+.name-container .icon {
+  position: absolute;
+  left: 10px;
+  top: 30px;
+  color: #9ca3af;
+}
+
+.phone-container .icon {
+  position: absolute;
+  left: 10px;
+  top: 30px;
+  color: #9ca3af;
+}
+
+
+.name-label, .email-label, .phone-label, .message-label {
+  font-family: "Lato", sans-serif;
+  color: #4b5563;
+  font-size: 0.875rem;
+}
+
+.name-input, .email-input, .phone-input {
+  font-family: "Lato", sans-serif;
+  padding-left: 35px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  appearance: none;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: border-color 0.2s ease;
+}
+
+.message-input {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  appearance: none;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: border-color 0.2s ease;
+  resize: vertical;
+  min-height: 100px;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.name-input:focus, .email-input:focus, .phone-input:focus, .message-input:focus {
+  border-color: #475569; 
+}
+
+.radio-inputs {
+  font-family: "Lato", sans-serif;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.5rem;
+  background-color: #EEE;
+  box-sizing: border-box;
+  box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+  padding: 0.25rem;
+  width: clamp(200px, 60%, 400px);
+  font-size: 14px;
+}
+
+.radio-inputs .radio {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.radio-inputs .radio input {
+  display: none;
+}
+
+.radio-inputs .radio .name {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  border: none;
+  padding: .5rem 0;
+  color: rgba(51, 65, 85, 1);
+  transition: all .15s ease-in-out;
+}
+
+.radio-inputs .radio input:checked + .name {
+  background-color: #fff;
+  font-weight: 600;
+}
+
+
+.contact-form button {
+  width: 20%;
+  padding: 10px 0;
+  background-color: rgb(0, 128, 255);     /* Primary blue */
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 12px rgba(0, 102, 255, 0.25);
+}
+
+/* Hover effect */
+.contact-form button:hover {
+  background-color: rgb(0, 128, 255);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 102, 255, 0.35);
+}
+
+/* Click effect */
+.contact-form button:active {
+  transform: translateY(0px);
+  box-shadow: 0 3px 10px rgba(0, 102, 255, 0.2);
+}

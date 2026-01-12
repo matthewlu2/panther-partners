@@ -1,0 +1,137 @@
+/* .pricing-container {
+    background: #298dbf;
+    background: linear-gradient(180deg, rgb(51, 152, 203) 0%, rgba(24, 96, 133, 0.21) 50%);
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+} */
+
+.pricing-container {
+    background: #3d3d57;
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.pricing-header {
+    text-align: center;
+    padding-top: 10vh;
+    color: #ffffff;
+}   
+
+.pricing-header h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.pricing-header p {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}   
+
+.pricing-cards {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+
+/* .pricing-cards p{
+    font-size: 0.75rem;
+} */
+
+.pricing-cards .acquaintance-plan,
+.pricing-cards .alliance-plan {
+    position: relative; /* So the .card-head can be positioned inside */
+    border: 1px solid rgba(111, 111, 111, 0.437);
+    border-radius: 0.7rem;
+    padding: 1.5rem;
+    padding-top: 4rem;
+    width: 15rem; /* smaller card */
+    height: 24rem; /* smaller height */
+    color: #000000;
+    text-decoration: none;
+    background-color: white; /* optional for contrast */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* optional */
+}
+
+.pricing-cards .partner-plan {
+    position: relative; /* So the .card-head can be positioned inside */
+    border: 1px solid rgba(111, 111, 111, 0.437);
+    border-radius: 0.7rem;
+    padding: 1.5rem;
+    padding-top: 4rem;
+    width: 15rem; /* smaller card */
+    height: 24rem; /* smaller height */
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #2a2a3b; /* optional for contrast */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* optional */
+}
+
+
+.pricing-cards h2 {
+    font-size: 2.4rem;
+    font-weight: 550;
+}
+
+.pricing-cards p {
+    font-weight: 500;
+}
+
+.card-price {
+    margin-bottom: 0rem;
+}
+
+.card-desc {
+    margin-top: 0rem;
+    font-size: 0.8rem;
+    color: rgb(102, 102, 102);
+    margin-bottom: 2.5rem;
+}
+
+
+.card-head {
+    position: absolute;
+    top: 0.1rem;
+    left: 0.75rem;
+    color: rgb(3, 3, 3);
+    border-radius: 12px;
+    padding: 0.3rem 0.7rem;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+.card-head-partner {
+    position: absolute;
+    top: 0.1rem;
+    left: 0.75rem;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    padding: 0.3rem 0.7rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+    
+.card-button {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5rem 5rem;       /* reduced padding */
+    white-space: nowrap;        /* keep text on one line */
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid rgba(111, 111, 111, 0.323);
+    background-color: white;    /* optional */
+    text-decoration: none;
+    margin-bottom: 10px;
+}
