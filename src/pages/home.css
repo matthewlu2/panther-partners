@@ -74,7 +74,7 @@
   border-radius: 0.5rem;
   background-color: rgb(0, 128, 255);
   padding: clamp(0.4rem, 1vw, 0.7rem);
-  width: clamp(4rem, 7vw, 8rem);
+  width: clamp(4rem, 8vw, 8rem);
   color: #fff;
   text-decoration: none;
 }
