@@ -23,7 +23,7 @@
   color: #fff;
   font-family: "Lato", sans-serif;
   font-weight: 900;
-  font-size: clamp(1rem, 4vw, 3rem);
+  font-size: clamp(1rem, 2.5vw, 3rem);
   line-height: 0.5;
   white-space: nowrap;
 }

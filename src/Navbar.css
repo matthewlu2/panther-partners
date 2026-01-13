@@ -20,6 +20,10 @@ body{
   border-radius: 5rem;
 }
 
+.navbar a:hover, .navbar-center .nav-links a:hover {
+  color: rgb(179, 179, 179);
+}
+
 .navbar-left .logo {
   color: #fff;
   text-decoration: none;
