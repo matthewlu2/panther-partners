@@ -87,7 +87,7 @@ body{
 
 .off-screen-menu {
   background-color: black;
-  height: 100vh;
+  height: 100dvh;
   width: 100%;
   position: fixed;
   display: flex;
