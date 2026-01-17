@@ -13,8 +13,9 @@ Panther Partners is a tutoring service website that helps students find academic
 ## Built With
 
 - **React**
-- **HTML5** 
-- **CSS3** 
+- **HTML** 
+- **CSS**
+- **Web3Forms**
 
 ## Installation
 
