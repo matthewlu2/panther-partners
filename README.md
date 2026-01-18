@@ -4,7 +4,7 @@ Official website for **Panther Partners**, a student run Tutoring company at the
 
 ## Live Link
 
-{ insert link when live}
+[Panther Partners](https://pantherpartners.org)
 
 ## About
 
