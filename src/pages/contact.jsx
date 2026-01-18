@@ -10,11 +10,12 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons'
 const Contact = () => {
   const [result, setResult] = useState("");
   const [preferredContact, setPreferredContact] = useState('Email');
+  const accessKey = import.meta.env.VITE_WEB3_ACCESS_KEY;
 
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
-    formData.append("access_key", "46091687-7da7-4411-981a-da22e3a8401d");
+    formData.append("access_key", accessKey);
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
