@@ -1,11 +1,11 @@
 .team-container {
     background-color: #758fd6;
     width: 100vw;
-    min-height: 100vh;
+    min-height: 100dvh;
 }
 
 .team-header {
-    padding-top: 10vh;
+    padding-top: 10dvh;
     text-align: center;
     color: rgb(255, 255, 255);
 }

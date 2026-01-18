@@ -2,7 +2,7 @@
   background-color: #FBFCFF;
   background-size: cover;
   width: 100vw;
-  min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -17,7 +17,7 @@
   border-radius: 15px;
   width: 38rem;
   height: 42rem;
-  margin-top: 12vh;
+  margin-top: 12dvh;
   background-color: white;
   align-items: center;
 }
@@ -46,7 +46,7 @@
   flex-direction: column;
   width: 38rem;
   height: 42rem;
-  margin-top: 12vh;
+  margin-top: 12dvh;
   justify-content: space-between;
   gap: 1rem;
   align-items: center;
