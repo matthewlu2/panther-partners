@@ -5,6 +5,7 @@ import matthew from '../assets/matthew_p_p.jpeg';
 import kai from '../assets/kai_p_p.jpg';
 import delaney from '../assets/delaney_p_p.jpg';
 import tommy from '../assets/tommy_p_p.jpg';
+import zoe from '../assets/zoe_p_p.jpg';
 
 const Team = () => {
   return (
@@ -38,6 +39,12 @@ const Team = () => {
           <img src={tommy} alt="Thomas Selwood" className="team-photo tommy-photo" />
           <p className="team-name">Thomas Selwood</p>
           <p className="team-subjects">Biology • Chemistry</p>
+        </div>
+
+        <div className="team-member">
+          <img src={zoe} alt="Zoe Fitzsimmons" className="team-photo zoe-photo" />
+          <p className="team-name">Zoe Fitzsimmons</p>
+          <p className="team-subjects">Chemistry • Biology</p>
         </div>
       </div>
     </div>
